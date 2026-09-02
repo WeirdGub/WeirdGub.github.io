@@ -125,20 +125,9 @@ function createMediaCard(mediaItem) {
     }
 
     if (mediaItem.type === "imageSlot") {
-        const placeholder = document.createElement("div");
-        placeholder.className = "media-placeholder";
-        placeholder.textContent = mediaItem.label || "Media slot";
-
         const image = document.createElement("img");
         image.src = mediaItem.src;
         image.alt = mediaItem.alt || "Project image";
-        image.hidden = true;
-        image.addEventListener("load", () => {
-            placeholder.hidden = true;
-            image.hidden = false;
-        });
-
-        card.appendChild(placeholder);
         card.appendChild(image);
         return card;
     }
