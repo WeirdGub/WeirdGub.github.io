@@ -12,7 +12,7 @@ const projectData = {
         media: [
             {
                 type: "video",
-                src: "fluent_velocity_with_bot_animation.mp4",
+                src: "assets/fluent_velocity_with_bot_animation.mp4",
                 alt: "Bioreactor CFD velocity field animation from ANSYS Fluent"
             }
         ]
@@ -92,6 +92,15 @@ const focusMedia = document.getElementById("focusMedia");
 const focusDescription = document.getElementById("focusDescription");
 const focusSpecs = document.getElementById("focusSpecs");
 const focusBackButton = document.getElementById("focusBackButton");
+const openShowcaseBtn = document.getElementById("openShowcaseBtn");
+
+if (openShowcaseBtn) {
+    openShowcaseBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        showGrid();
+        document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+    });
+}
 
 function createMediaCard(mediaItem) {
     const card = document.createElement("div");
