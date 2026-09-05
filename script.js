@@ -20,7 +20,7 @@ const projectData = {
     hyacinth: {
         title: "BSLI Hyacinth Fuel Pump Lead",
         description:
-            "As fuel pump team lead on Hyacinth, I led design decisions, delegated subsystem work across a team of three peers, and engineered a cryogenic methane pump architecture to satisfy aggressive pressure and power targets.",
+            "As fuel pump team lead on BSLI's Hyacinth engine, I'm currently leading design decisions, delegating subsystem work across a team of three peers, and engineering a cryogenic methane pump architecture to satisfy aggressive pressure and power targets. Since this project is in development, much of the work is ongoing and iterative. For now, the thumbnail shows the Rocketdyne A-7, shown for its similar turbopump configuration.",
         specs: [
             "Engine context: 18.2 kN (about 4,100 lbf) open-cycle gas-generator methalox engine.",
             "Target chamber pressure: 4.8 MPa (700 psi).",
@@ -33,7 +33,7 @@ const projectData = {
             {
                 type: "imageSlot",
                 src: "assets/hyacinth-fuel-pump.jpg",
-                alt: "Hyacinth fuel pump",
+                alt: "Preliminary designs coming soon!",
                 label: "Image Slot: add assets/hyacinth-fuel-pump.jpg"
             }
         ]
@@ -41,7 +41,7 @@ const projectData = {
     balancer: {
         title: "BSLI Pump Balancer Project",
         description:
-            "I designed a reusable turbopump balancer from scratch in SolidWorks and led a small team to deliver a safe, low-cost system that can identify rotational imbalance location by syncing force, RPM, and shaft position data.",
+            "I designed a reusable turbopump balancer from scratch in SolidWorks and led a small team to deliver a safe, low-cost system that can identify rotational imbalance location by syncing force, RPM, and shaft position data. The pumps this system was originally designed to balance passed rotational testing without a need for balancing, but the design remains ready for future production, and is expected to be utilized for our Hyacinth engine.",
         specs: [
             "Designed around a strict total budget of about $200.",
             "Accommodates multiple pump sizes for long-term club reuse.",
